@@ -51,7 +51,7 @@ fun SplashScreen(navController: NavController){
     ) {
 
         Image(
-            painter = painterResource(R.drawable.product),
+            painter = painterResource(R.drawable.markethubicon),
             contentDescription = "product",
             modifier = Modifier.size(300.dp)
         )

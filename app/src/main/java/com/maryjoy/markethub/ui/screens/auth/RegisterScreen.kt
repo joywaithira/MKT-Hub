@@ -43,7 +43,7 @@ import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
 
 import com.maryjoy.markethub.R
-import com.maryjoy.markethub.navigation.ROUTE_Login
+import com.maryjoy.markethub.ui.navigation.ROUTE_Login
 import com.maryjoy.markethub.ui.theme.Borange
 
 @Composable
@@ -52,7 +52,7 @@ fun RegisterScreen(navController: NavController){
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .paint(painter = painterResource(R.drawable.product),  contentScale = ContentScale.FillBounds),
+            .paint(painter = painterResource(R.drawable.wallpaper2),  contentScale = ContentScale.FillBounds),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -68,12 +68,15 @@ fun RegisterScreen(navController: NavController){
         )
 
         Spacer(modifier = Modifier.width(10.dp))
+        Spacer(modifier = Modifier.width(10.dp))
 
         Image(
-            painter = painterResource(R.drawable.`re.xml..........delete`),
+            painter = painterResource(R.drawable.mletterlogo),
             contentDescription = "product",
-            modifier = Modifier.size(300.dp)
+            modifier = Modifier.size(100.dp)
         )
+
+        Spacer(modifier = Modifier.width(10.dp))
 
         Text(
             text = "Join Us and Start Your Journey Today",
@@ -216,10 +219,6 @@ fun RegisterScreen(navController: NavController){
 
 
 
-}
-
-
-}
 
 
 @Preview(showBackground = true)

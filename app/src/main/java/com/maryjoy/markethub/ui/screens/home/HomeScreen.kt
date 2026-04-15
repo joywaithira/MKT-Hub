@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.ArrowForward
 import androidx.compose.material.icons.filled.Menu
 import androidx.compose.material.icons.filled.Notifications
 import androidx.compose.material.icons.filled.Search
@@ -84,7 +85,7 @@ fun HomeScreen(navController: NavController) {
                 IconButton(
                     onClick = {}) {
                     Icon(
-                        imageVector = Icons.Default.Share,
+                        imageVector = Icons.Default.ArrowForward,
                         contentDescription = ""
                     ) }
             },
@@ -141,8 +142,8 @@ fun HomeScreen(navController: NavController) {
 
             Column() {
                 Image(
-                    painter = painterResource(R.drawable.electronics),
-                    contentDescription = "electronics",
+                    painter = painterResource(R.drawable.appleecosystem),
+                    contentDescription = "Electronics",
                     modifier = Modifier.size(200.dp).clip(shape = RoundedCornerShape(20.dp)),
                     contentScale = ContentScale.Crop
                 )
@@ -160,14 +161,14 @@ fun HomeScreen(navController: NavController) {
 
             Column() {
                 Image(
-                    painter = painterResource(R.drawable.electronics),
-                    contentDescription = "electronics",
+                    painter = painterResource(R.drawable.clothing),
+                    contentDescription = "Clothing",
                     modifier = Modifier.size(200.dp).clip(shape = RoundedCornerShape(20.dp)),
                     contentScale = ContentScale.Crop
                 )
 
                 Text(
-                    text = " Electronics",
+                    text = " Clothing",
                     fontSize = 15.sp,
                     fontWeight = FontWeight.Medium,
                     modifier = Modifier.padding(start = 60.dp)
@@ -179,14 +180,14 @@ fun HomeScreen(navController: NavController) {
 
             Column() {
                 Image(
-                    painter = painterResource(R.drawable.electronics),
-                    contentDescription = "electronics",
+                    painter = painterResource(R.drawable.groceries),
+                    contentDescription = "Groceries",
                     modifier = Modifier.size(200.dp).clip(shape = RoundedCornerShape(20.dp)),
                     contentScale = ContentScale.Crop
                 )
 
                 Text(
-                    text = " Electronics",
+                    text = " Groceries",
                     fontSize = 15.sp,
                     fontWeight = FontWeight.Medium,
                     modifier = Modifier.padding(start = 60.dp)
@@ -198,14 +199,14 @@ fun HomeScreen(navController: NavController) {
 
             Column() {
                 Image(
-                    painter = painterResource(R.drawable.electronics),
-                    contentDescription = "electronics",
+                    painter = painterResource(R.drawable.flowers),
+                    contentDescription = "Flowers",
                     modifier = Modifier.size(200.dp).clip(shape = RoundedCornerShape(20.dp)),
                     contentScale = ContentScale.Crop
                 )
 
                 Text(
-                    text = " Electronics",
+                    text = " Flowers",
                     fontSize = 15.sp,
                     fontWeight = FontWeight.Medium,
                     modifier = Modifier.padding(start = 60.dp)

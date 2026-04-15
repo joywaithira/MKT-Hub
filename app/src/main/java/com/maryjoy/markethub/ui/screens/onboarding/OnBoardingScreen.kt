@@ -37,7 +37,7 @@ fun OnBoardingScreen(navController: NavController){
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .paint(painter = painterResource(R.drawable.product), contentScale = ContentScale.FillBounds),
+                .paint(painter = painterResource(R.drawable.wallpaper2), contentScale = ContentScale.FillBounds),
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center
         ) {
@@ -45,9 +45,9 @@ fun OnBoardingScreen(navController: NavController){
             //Image
 
             Image(
-                painter = painterResource(R.drawable.product),
+                painter = painterResource(R.drawable.mletterlogo),
                 contentDescription = "product",
-                modifier = Modifier.size(300.dp)
+                modifier = Modifier.size(100.dp)
             )
 
 
@@ -55,7 +55,7 @@ fun OnBoardingScreen(navController: NavController){
 
             Text(
                 text = "WELCOME TO MARKETHUB",
-                fontSize = 30.sp,
+                fontSize = 20.sp,
                 fontWeight = FontWeight.Bold,
                 color = Borange,
                 fontFamily = FontFamily.Cursive

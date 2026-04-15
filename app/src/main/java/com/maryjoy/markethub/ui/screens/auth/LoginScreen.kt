@@ -51,7 +51,7 @@ fun LoginScreen(navController: NavController){
     Column(
 
         modifier = Modifier
-            .paint(painter = painterResource(R.drawable.product), contentScale = ContentScale.FillBounds)
+            .paint(painter = painterResource(R.drawable.wallpaper2), contentScale = ContentScale.FillBounds)
             .fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
@@ -65,7 +65,7 @@ fun LoginScreen(navController: NavController){
 
         Image(
 
-            painter = painterResource(R.drawable.re),
+            painter = painterResource(R.drawable.markethubicon),
             contentDescription = "Product",
             modifier = Modifier.size(200.dp)
         )
@@ -181,7 +181,7 @@ fun LoginScreen(navController: NavController){
 
 @Preview(showBackground = true)
 @Composable
-fun ServiceScreenPreview(){
+fun LoginScreenPreview(){
 
     LoginScreen(rememberNavController())
 

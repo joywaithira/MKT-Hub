@@ -70,6 +70,8 @@ fun RegisterScreen(navController: NavController){
         Spacer(modifier = Modifier.width(10.dp))
         Spacer(modifier = Modifier.width(10.dp))
 
+        Spacer(modifier = Modifier.height(20.dp))
+
         Image(
             painter = painterResource(R.drawable.mletterlogo),
             contentDescription = "product",
@@ -77,6 +79,8 @@ fun RegisterScreen(navController: NavController){
         )
 
         Spacer(modifier = Modifier.width(10.dp))
+
+        Spacer(modifier = Modifier.height(20.dp))
 
         Text(
             text = "Join Us and Start Your Journey Today",
@@ -198,7 +202,7 @@ fun RegisterScreen(navController: NavController){
 
 
         ) {
-            Text(text = "Register Now")
+            Text(text = "Register!")
         }
 
         Spacer(modifier = Modifier.height(20.dp))

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "949009021745",
+    "project_id": "markethub-9c275",
+    "storage_bucket": "markethub-9c275.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949009021745:android:579e06cd293ae2c1f14e10",
+        "android_client_info": {
+          "package_name": "com.maryjoy.markethub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaYF0_qVhN_0sOhIQB1MemtWqObt_W49o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -27,7 +27,6 @@ import kotlinx.coroutines.launch
 fun SplashScreen(navController: NavController){
 
     //Navigation to the next screen
-
     val coroutine = rememberCoroutineScope()
     coroutine.launch {
         delay(2000)
